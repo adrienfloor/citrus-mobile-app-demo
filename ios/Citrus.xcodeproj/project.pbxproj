@@ -1,0 +1,1325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CitrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CitrusTests.m */; };
+		031D578019CD4F03AC39DE26 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46D431BBCC28472485E7D529 /* Raleway-Regular.ttf */; };
+		0964F1CE40754855900949F2 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798A00A93E454B0FBED8382D /* Raleway-BlackItalic.ttf */; };
+		0AF7208E2F26404EBA6406B1 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75022A296714CC4A8526E7C /* Raleway-Italic.ttf */; };
+		0E55F5715153465CA1595641 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34BE2669B4274C46893AB39D /* Raleway-SemiBoldItalic.ttf */; };
+		0E8C6D6990504B67AB34B9DE /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4345ECCD76488B819D9C3F /* Roboto-ThinItalic.ttf */; };
+		100C59B709DB48299BD11954 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0DED956D6D64D01A5E85632 /* Roboto-Medium.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14300F48595F489D95F871B3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A8A8CBC345129C37CE6A /* Roboto-Bold.ttf */; };
+		18765EB0734947C2894F7AE2 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B02CE9B7DA34925805CB192 /* Montserrat-Thin.ttf */; };
+		1960B799A5A04D22B6D55E91 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07937F05E98F41118BA02854 /* Raleway-ExtraBold.ttf */; };
+		1F06CA9A10A749708F0CE336 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A83F5C708CEE43EB9E5C9F65 /* Raleway-VariableFont_wght.ttf */; };
+		1FD457AE4D0E40BF8E134CEB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F185E6414ECA4A96ADBEEDEF /* Montserrat-SemiBold.ttf */; };
+		2878DBD24041485A816061C0 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82CA5F888566413DBB8DCE0C /* Raleway-Black.ttf */; };
+		29F34C2EEB4048289045A208 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79C9BF9FF76D48F3AFE54923 /* Raleway-Medium.ttf */; };
+		2CAA2D6ADF4A43F5A893A3B0 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5967A8E831554179833AF05B /* Roboto.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* CitrusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CitrusTests.m */; };
+		3A3DB7209AB8493DA20FA230 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F062A531766C4BEABD307FBE /* Roboto-BlackItalic.ttf */; };
+		413A9F37117C434F8907D08A /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF6256E2CF5D4D2CBC2FDB55 /* Montserrat-SemiBoldItalic.ttf */; };
+		4A15FB67D1CF4B9EA5727369 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 729B1F5CFE66427DB726526B /* Montserrat-Regular.ttf */; };
+		4F2C297039D040E7BBA6FFCE /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB09654C2F0847A6B82B64FF /* Roboto-Thin.ttf */; };
+		508DEAC82C6342219E43D432 /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B927F93FC5942179D8C6DE9 /* Raleway-Italic-VariableFont_wght.ttf */; };
+		51365E48B9B14B61A3F1E430 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7823439DD4B9D83974C0E /* Roboto-Light.ttf */; };
+		55FBC6D5A9E979046A450F52 /* libPods-Citrus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 943243BBDF71854BDCA11C00 /* libPods-Citrus.a */; };
+		5BF8FF1718CBC041718B93B7 /* libPods-Citrus-CitrusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 243505F7B4667BCCBB8B3711 /* libPods-Citrus-CitrusTests.a */; };
+		6111CEE5D9244571A16CB54D /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 699AD68A26074301A7BDF9C0 /* Montserrat-ExtraLightItalic.ttf */; };
+		6270DAFC537C48389F71B3C8 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 589BAC53B36C4913B6C786EC /* Raleway-ExtraBoldItalic.ttf */; };
+		6690E93EAE584ED693792397 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 637ED386C096487F8952DFAE /* Montserrat-ExtraLight.ttf */; };
+		74C30CA8EBC6133931C37CE2 /* libPods-Citrus-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EFEBF6729D14AB8E72B406 /* libPods-Citrus-tvOS.a */; };
+		79D01BD4BAF84FC2956258D5 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E78DD3F9CE55411D825306F6 /* Raleway-Light.ttf */; };
+		7D8BCD50C615473BB379EA7C /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7858686AA05F45C880D9BBB9 /* Montserrat-LightItalic.ttf */; };
+		7E7E80FD4DC64A6798C7F5AA /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A233C9202E4441EB3E03FC9 /* Montserrat-ExtraBoldItalic.ttf */; };
+		7FF1140552F6C159E193A89C /* libPods-Citrus-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7E8D024AC167222BF32473 /* libPods-Citrus-tvOSTests.a */; };
+		8DB5B2077BBF4A33B89FD89C /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BF7F4220FF24AA9B0B18FA0 /* Raleway-ExtraLight.ttf */; };
+		996F304BE4E6459CB906D8FB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E94A5BD51798479DBAEFF951 /* Montserrat-Bold.ttf */; };
+		9A8AF1C476284AECA7519D41 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B68B83A7F334440B38070CE /* Roboto-BoldItalic.ttf */; };
+		9E5FF8283A25493ABE6D14D0 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58876C0EB5844C2C8AFE3207 /* Montserrat-BlackItalic.ttf */; };
+		A42DD6D473D94778B71BFF06 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2BA4035971F4B7094669A61 /* Montserrat-MediumItalic.ttf */; };
+		A532F8E5DFE242A18941919E /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34AE63D1E7AA4472ABDE55E9 /* Montserrat-ExtraBold.ttf */; };
+		B1B1F61D016B4BECBB8CD81A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 883CD3D151854C68B940D9ED /* Roboto-LightItalic.ttf */; };
+		B49934DCAB334BA2A23B6AB1 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFE8AC6E8763428B94B1CDED /* Raleway-BoldItalic.ttf */; };
+		B8C460275D224A0EB1553FA2 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 254CC1B697EC45FF95C86356 /* Roboto-Italic.ttf */; };
+		C69370E679374356A72D522C /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B26F98729F34D80BA234719 /* Raleway-Thin.ttf */; };
+		D035228DB6F048C1B622A8D9 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A83442113F0A4D4B8C3F29CB /* Raleway-ThinItalic.ttf */; };
+		D4EC7CB7C1B6448D81B4B0C6 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE4EE5AAFF804492AA806467 /* Raleway-MediumItalic.ttf */; };
+		D744F53BA1D04800BD049238 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BA8D86241F248798641D627 /* Roboto-Black.ttf */; };
+		D75746488FDD49FC8B75D29B /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9066B72CB991474C9F61EF95 /* Montserrat-Light.ttf */; };
+		DBA1BBB00C0B48A8BF64D0F1 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E73787E948BF459C81A480B9 /* Raleway-ExtraLightItalic.ttf */; };
+		DD43293C449A469EBA63E332 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C524BE4BB194678A758B9FD /* Raleway-LightItalic.ttf */; };
+		E239C8448B694F55A49CDC81 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8F2B37601B74D0F9668AD9C /* Montserrat-Medium.ttf */; };
+		E8686D4725E94C8900399FFC /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E8686D4625E94C8900399FFC /* main.jsbundle */; };
+		E8686D4825E94C8900399FFC /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E8686D4625E94C8900399FFC /* main.jsbundle */; };
+		E88566AD2656CF8E00C4FD87 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88566AC2656CF8E00C4FD87 /* StoreKit.framework */; };
+		E8DCAB7625E6B109006DB1E7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DCAB7525E6B109006DB1E7 /* AuthenticationServices.framework */; };
+		E8FED916252795F400FB7B58 /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FED915252795F400FB7B58 /* file.swift */; };
+		E966FA043E0241B899E3D50B /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A5E7A9895C486AB8F5E5B3 /* Montserrat-Italic.ttf */; };
+		E97E8207C1D84294A0ACA889 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84468695ECBE40DBB1F054E1 /* Roboto-MediumItalic.ttf */; };
+		EFE2F39EFFD64EED9A29AC3E /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC6062AB2034E7B85097574 /* Raleway-Bold.ttf */; };
+		F19317F5A8B54BFEBCDC0762 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69101563D83441B0B7505784 /* Montserrat-Black.ttf */; };
+		F92F89D3110144C38C11101F /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C95B6DC130F8419D8AEAC0B6 /* Raleway-SemiBold.ttf */; };
+		F971FC65F2464225A8A1A8A2 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4148198AEB97490BB5E6E568 /* Montserrat-ThinItalic.ttf */; };
+		FF86DC7CB7374FAD8E008F1D /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD56E22D660E4E749BBEBC76 /* Montserrat-BoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Citrus;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Citrus-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* CitrusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitrusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CitrusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitrusTests.m; sourceTree = "<group>"; };
+		069E40A379F170D7929F7CED /* Pods-Citrus-CitrusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus-CitrusTests.debug.xcconfig"; path = "Target Support Files/Pods-Citrus-CitrusTests/Pods-Citrus-CitrusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0743CABB6BDE43B898D017B0 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		07937F05E98F41118BA02854 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway/static/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0FE9244B3F1141A8A5C49257 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Citrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Citrus/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Citrus/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Citrus/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Citrus/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Citrus/main.m; sourceTree = "<group>"; };
+		17A3B6A588867E8AC2BE6C17 /* Pods-Citrus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus.release.xcconfig"; path = "Target Support Files/Pods-Citrus/Pods-Citrus.release.xcconfig"; sourceTree = "<group>"; };
+		1A233C9202E4441EB3E03FC9 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1B927F93FC5942179D8C6DE9 /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1F4345ECCD76488B819D9C3F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		20D4249F9C8544BD91060085 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		243505F7B4667BCCBB8B3711 /* libPods-Citrus-CitrusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Citrus-CitrusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		254CC1B697EC45FF95C86356 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Citrus-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citrus-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Citrus-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Citrus-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6CBC983E9C43F9AC30FC3C /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		34AE63D1E7AA4472ABDE55E9 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		34BE2669B4274C46893AB39D /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		377EA22F046E4C1294F476CC /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3A72A270A9FB4266AEA73353 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		3C9989174B2FA23E79186F54 /* Pods-Citrus-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Citrus-tvOS/Pods-Citrus-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4148198AEB97490BB5E6E568 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		41FF3A5CC0024EE69DD96749 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		4624CDDD6E62488B9BD79675 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		46D431BBCC28472485E7D529 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		48C6928800EB59D74B1AE5B1 /* Pods-Citrus-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Citrus-tvOSTests/Pods-Citrus-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AC7823439DD4B9D83974C0E /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		58876C0EB5844C2C8AFE3207 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		589BAC53B36C4913B6C786EC /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5967A8E831554179833AF05B /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = ../assets/fonts/Roboto.ttf; sourceTree = "<group>"; };
+		5B68B83A7F334440B38070CE /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5B6E0A21D7EA4202AAB0A60D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		5BF7F4220FF24AA9B0B18FA0 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway/static/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		637ED386C096487F8952DFAE /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		690A10F0F1F9416190F3C26D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		69101563D83441B0B7505784 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		699AD68A26074301A7BDF9C0 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6B02CE9B7DA34925805CB192 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		6B28564763C8439D85982D7A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		6B7B89E11548459C8AAF14F6 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		6BA8D86241F248798641D627 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		729B1F5CFE66427DB726526B /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		7858686AA05F45C880D9BBB9 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		78EEF7098F1841C082AD6E5D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		798A00A93E454B0FBED8382D /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		79C9BF9FF76D48F3AFE54923 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		7C524BE4BB194678A758B9FD /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		7FAA0362D034491AB8E7F0DC /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		82CA5F888566413DBB8DCE0C /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		84468695ECBE40DBB1F054E1 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		874674F1C5EC455CA61F6ABB /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		883CD3D151854C68B940D9ED /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		8B26F98729F34D80BA234719 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		9066B72CB991474C9F61EF95 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		943243BBDF71854BDCA11C00 /* libPods-Citrus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Citrus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3E1156CF4CB495A84BC4FC /* Pods-Citrus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus.debug.xcconfig"; path = "Target Support Files/Pods-Citrus/Pods-Citrus.debug.xcconfig"; sourceTree = "<group>"; };
+		9DC6062AB2034E7B85097574 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		9E1C02D2049B27B76F614281 /* Pods-Citrus-CitrusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus-CitrusTests.release.xcconfig"; path = "Target Support Files/Pods-Citrus-CitrusTests/Pods-Citrus-CitrusTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3EFEBF6729D14AB8E72B406 /* libPods-Citrus-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Citrus-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E8E26CD2E7430ABE681FDD /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A6A5E7A9895C486AB8F5E5B3 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		A83442113F0A4D4B8C3F29CB /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A83F5C708CEE43EB9E5C9F65 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-VariableFont_wght.ttf"; path = "../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		AB09654C2F0847A6B82B64FF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		AE4EE5AAFF804492AA806467 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AFFDE6D1ED20F18C9D37BEA4 /* Pods-Citrus-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Citrus-tvOSTests/Pods-Citrus-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BA4035971F4B7094669A61 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C8F2B37601B74D0F9668AD9C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		C95B6DC130F8419D8AEAC0B6 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway/static/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		CC2E446A98084FDD9771D2AA /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		CD17E2DC5858494695377F15 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		D0DED956D6D64D01A5E85632 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		DD56E22D660E4E749BBEBC76 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DDC3A8A8CBC345129C37CE6A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E73787E948BF459C81A480B9 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E78DD3F9CE55411D825306F6 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		E8686D4625E94C8900399FFC /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		E88566AC2656CF8E00C4FD87 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E8DCAB7425E6B109006DB1E7 /* Citrus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Citrus.entitlements; path = Citrus/Citrus.entitlements; sourceTree = "<group>"; };
+		E8DCAB7525E6B109006DB1E7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		E8FED914252795F400FB7B58 /* Citrus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Citrus-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8FED915252795F400FB7B58 /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
+		E94A5BD51798479DBAEFF951 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF6256E2CF5D4D2CBC2FDB55 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EFE8AC6E8763428B94B1CDED /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F062A531766C4BEABD307FBE /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F185E6414ECA4A96ADBEEDEF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		F403EE6BD2D0834941273336 /* Pods-Citrus-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citrus-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Citrus-tvOS/Pods-Citrus-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F75022A296714CC4A8526E7C /* Raleway-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic.ttf"; path = "../assets/fonts/Raleway/static/Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		FC7E8D024AC167222BF32473 /* libPods-Citrus-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Citrus-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF8FF1718CBC041718B93B7 /* libPods-Citrus-CitrusTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88566AD2656CF8E00C4FD87 /* StoreKit.framework in Frameworks */,
+				E8DCAB7625E6B109006DB1E7 /* AuthenticationServices.framework in Frameworks */,
+				55FBC6D5A9E979046A450F52 /* libPods-Citrus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C30CA8EBC6133931C37CE2 /* libPods-Citrus-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF1140552F6C159E193A89C /* libPods-Citrus-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CitrusTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CitrusTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CitrusTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Citrus */ = {
+			isa = PBXGroup;
+			children = (
+				E8686D4625E94C8900399FFC /* main.jsbundle */,
+				E8DCAB7425E6B109006DB1E7 /* Citrus.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Citrus;
+			sourceTree = "<group>";
+		};
+		1FDD5648A3F94480CDAEC54A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E1156CF4CB495A84BC4FC /* Pods-Citrus.debug.xcconfig */,
+				17A3B6A588867E8AC2BE6C17 /* Pods-Citrus.release.xcconfig */,
+				069E40A379F170D7929F7CED /* Pods-Citrus-CitrusTests.debug.xcconfig */,
+				9E1C02D2049B27B76F614281 /* Pods-Citrus-CitrusTests.release.xcconfig */,
+				3C9989174B2FA23E79186F54 /* Pods-Citrus-tvOS.debug.xcconfig */,
+				F403EE6BD2D0834941273336 /* Pods-Citrus-tvOS.release.xcconfig */,
+				AFFDE6D1ED20F18C9D37BEA4 /* Pods-Citrus-tvOSTests.debug.xcconfig */,
+				48C6928800EB59D74B1AE5B1 /* Pods-Citrus-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E88566AC2656CF8E00C4FD87 /* StoreKit.framework */,
+				E8DCAB7525E6B109006DB1E7 /* AuthenticationServices.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				943243BBDF71854BDCA11C00 /* libPods-Citrus.a */,
+				243505F7B4667BCCBB8B3711 /* libPods-Citrus-CitrusTests.a */,
+				A3EFEBF6729D14AB8E72B406 /* libPods-Citrus-tvOS.a */,
+				FC7E8D024AC167222BF32473 /* libPods-Citrus-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C31EF6710D54B758A614A63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BA8D86241F248798641D627 /* Roboto-Black.ttf */,
+				F062A531766C4BEABD307FBE /* Roboto-BlackItalic.ttf */,
+				DDC3A8A8CBC345129C37CE6A /* Roboto-Bold.ttf */,
+				5B68B83A7F334440B38070CE /* Roboto-BoldItalic.ttf */,
+				254CC1B697EC45FF95C86356 /* Roboto-Italic.ttf */,
+				4AC7823439DD4B9D83974C0E /* Roboto-Light.ttf */,
+				883CD3D151854C68B940D9ED /* Roboto-LightItalic.ttf */,
+				D0DED956D6D64D01A5E85632 /* Roboto-Medium.ttf */,
+				84468695ECBE40DBB1F054E1 /* Roboto-MediumItalic.ttf */,
+				AB09654C2F0847A6B82B64FF /* Roboto-Thin.ttf */,
+				1F4345ECCD76488B819D9C3F /* Roboto-ThinItalic.ttf */,
+				5967A8E831554179833AF05B /* Roboto.ttf */,
+				CC2E446A98084FDD9771D2AA /* AntDesign.ttf */,
+				874674F1C5EC455CA61F6ABB /* Entypo.ttf */,
+				0743CABB6BDE43B898D017B0 /* EvilIcons.ttf */,
+				3A72A270A9FB4266AEA73353 /* Feather.ttf */,
+				4624CDDD6E62488B9BD79675 /* FontAwesome.ttf */,
+				5B6E0A21D7EA4202AAB0A60D /* FontAwesome5_Brands.ttf */,
+				6B28564763C8439D85982D7A /* FontAwesome5_Regular.ttf */,
+				377EA22F046E4C1294F476CC /* FontAwesome5_Solid.ttf */,
+				41FF3A5CC0024EE69DD96749 /* Fontisto.ttf */,
+				6B7B89E11548459C8AAF14F6 /* Foundation.ttf */,
+				20D4249F9C8544BD91060085 /* Ionicons.ttf */,
+				0FE9244B3F1141A8A5C49257 /* MaterialCommunityIcons.ttf */,
+				7FAA0362D034491AB8E7F0DC /* MaterialIcons.ttf */,
+				A5E8E26CD2E7430ABE681FDD /* Octicons.ttf */,
+				CD17E2DC5858494695377F15 /* Roboto_medium.ttf */,
+				2E6CBC983E9C43F9AC30FC3C /* rubicon-icon-font.ttf */,
+				78EEF7098F1841C082AD6E5D /* SimpleLineIcons.ttf */,
+				690A10F0F1F9416190F3C26D /* Zocial.ttf */,
+				69101563D83441B0B7505784 /* Montserrat-Black.ttf */,
+				58876C0EB5844C2C8AFE3207 /* Montserrat-BlackItalic.ttf */,
+				E94A5BD51798479DBAEFF951 /* Montserrat-Bold.ttf */,
+				DD56E22D660E4E749BBEBC76 /* Montserrat-BoldItalic.ttf */,
+				34AE63D1E7AA4472ABDE55E9 /* Montserrat-ExtraBold.ttf */,
+				1A233C9202E4441EB3E03FC9 /* Montserrat-ExtraBoldItalic.ttf */,
+				637ED386C096487F8952DFAE /* Montserrat-ExtraLight.ttf */,
+				699AD68A26074301A7BDF9C0 /* Montserrat-ExtraLightItalic.ttf */,
+				A6A5E7A9895C486AB8F5E5B3 /* Montserrat-Italic.ttf */,
+				9066B72CB991474C9F61EF95 /* Montserrat-Light.ttf */,
+				7858686AA05F45C880D9BBB9 /* Montserrat-LightItalic.ttf */,
+				C8F2B37601B74D0F9668AD9C /* Montserrat-Medium.ttf */,
+				B2BA4035971F4B7094669A61 /* Montserrat-MediumItalic.ttf */,
+				729B1F5CFE66427DB726526B /* Montserrat-Regular.ttf */,
+				F185E6414ECA4A96ADBEEDEF /* Montserrat-SemiBold.ttf */,
+				EF6256E2CF5D4D2CBC2FDB55 /* Montserrat-SemiBoldItalic.ttf */,
+				6B02CE9B7DA34925805CB192 /* Montserrat-Thin.ttf */,
+				4148198AEB97490BB5E6E568 /* Montserrat-ThinItalic.ttf */,
+				1B927F93FC5942179D8C6DE9 /* Raleway-Italic-VariableFont_wght.ttf */,
+				A83F5C708CEE43EB9E5C9F65 /* Raleway-VariableFont_wght.ttf */,
+				82CA5F888566413DBB8DCE0C /* Raleway-Black.ttf */,
+				798A00A93E454B0FBED8382D /* Raleway-BlackItalic.ttf */,
+				9DC6062AB2034E7B85097574 /* Raleway-Bold.ttf */,
+				EFE8AC6E8763428B94B1CDED /* Raleway-BoldItalic.ttf */,
+				07937F05E98F41118BA02854 /* Raleway-ExtraBold.ttf */,
+				589BAC53B36C4913B6C786EC /* Raleway-ExtraBoldItalic.ttf */,
+				5BF7F4220FF24AA9B0B18FA0 /* Raleway-ExtraLight.ttf */,
+				E73787E948BF459C81A480B9 /* Raleway-ExtraLightItalic.ttf */,
+				F75022A296714CC4A8526E7C /* Raleway-Italic.ttf */,
+				E78DD3F9CE55411D825306F6 /* Raleway-Light.ttf */,
+				7C524BE4BB194678A758B9FD /* Raleway-LightItalic.ttf */,
+				79C9BF9FF76D48F3AFE54923 /* Raleway-Medium.ttf */,
+				AE4EE5AAFF804492AA806467 /* Raleway-MediumItalic.ttf */,
+				46D431BBCC28472485E7D529 /* Raleway-Regular.ttf */,
+				C95B6DC130F8419D8AEAC0B6 /* Raleway-SemiBold.ttf */,
+				34BE2669B4274C46893AB39D /* Raleway-SemiBoldItalic.ttf */,
+				8B26F98729F34D80BA234719 /* Raleway-Thin.ttf */,
+				A83442113F0A4D4B8C3F29CB /* Raleway-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				E8FED915252795F400FB7B58 /* file.swift */,
+				13B07FAE1A68108700A75B9A /* Citrus */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CitrusTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				1FDD5648A3F94480CDAEC54A /* Pods */,
+				7C31EF6710D54B758A614A63 /* Resources */,
+				E8FED914252795F400FB7B58 /* Citrus-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Citrus.app */,
+				00E356EE1AD99517003FC87E /* CitrusTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Citrus-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Citrus-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CitrusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CitrusTests" */;
+			buildPhases = (
+				960D245A2503428BD5EC61F0 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				817C7B852CEE86CB57124C2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CitrusTests;
+			productName = CitrusTests;
+			productReference = 00E356EE1AD99517003FC87E /* CitrusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Citrus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Citrus" */;
+			buildPhases = (
+				1C2DF5011530EEB7C382CF32 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				B70525A663B9752A95B7C923 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Citrus;
+			productName = Citrus;
+			productReference = 13B07F961A680F5B00A75B9A /* Citrus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Citrus-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Citrus-tvOS" */;
+			buildPhases = (
+				924DDEA121F57C94541D3D19 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Citrus-tvOS";
+			productName = "Citrus-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Citrus-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Citrus-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Citrus-tvOSTests" */;
+			buildPhases = (
+				F0D8B966AA53B786617F7AC9 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Citrus-tvOSTests";
+			productName = "Citrus-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Citrus-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 28L47H745H;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 27BMCL3FP6;
+						LastSwiftMigration = 1200;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Citrus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Citrus */,
+				00E356ED1AD99517003FC87E /* CitrusTests */,
+				2D02E47A1E0B4A5D006451C7 /* Citrus-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Citrus-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D744F53BA1D04800BD049238 /* Roboto-Black.ttf in Resources */,
+				3A3DB7209AB8493DA20FA230 /* Roboto-BlackItalic.ttf in Resources */,
+				14300F48595F489D95F871B3 /* Roboto-Bold.ttf in Resources */,
+				9A8AF1C476284AECA7519D41 /* Roboto-BoldItalic.ttf in Resources */,
+				B8C460275D224A0EB1553FA2 /* Roboto-Italic.ttf in Resources */,
+				51365E48B9B14B61A3F1E430 /* Roboto-Light.ttf in Resources */,
+				B1B1F61D016B4BECBB8CD81A /* Roboto-LightItalic.ttf in Resources */,
+				100C59B709DB48299BD11954 /* Roboto-Medium.ttf in Resources */,
+				E97E8207C1D84294A0ACA889 /* Roboto-MediumItalic.ttf in Resources */,
+				4F2C297039D040E7BBA6FFCE /* Roboto-Thin.ttf in Resources */,
+				E8686D4725E94C8900399FFC /* main.jsbundle in Resources */,
+				0E8C6D6990504B67AB34B9DE /* Roboto-ThinItalic.ttf in Resources */,
+				2CAA2D6ADF4A43F5A893A3B0 /* Roboto.ttf in Resources */,
+				F19317F5A8B54BFEBCDC0762 /* Montserrat-Black.ttf in Resources */,
+				9E5FF8283A25493ABE6D14D0 /* Montserrat-BlackItalic.ttf in Resources */,
+				996F304BE4E6459CB906D8FB /* Montserrat-Bold.ttf in Resources */,
+				FF86DC7CB7374FAD8E008F1D /* Montserrat-BoldItalic.ttf in Resources */,
+				A532F8E5DFE242A18941919E /* Montserrat-ExtraBold.ttf in Resources */,
+				7E7E80FD4DC64A6798C7F5AA /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				6690E93EAE584ED693792397 /* Montserrat-ExtraLight.ttf in Resources */,
+				6111CEE5D9244571A16CB54D /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				E966FA043E0241B899E3D50B /* Montserrat-Italic.ttf in Resources */,
+				D75746488FDD49FC8B75D29B /* Montserrat-Light.ttf in Resources */,
+				7D8BCD50C615473BB379EA7C /* Montserrat-LightItalic.ttf in Resources */,
+				E239C8448B694F55A49CDC81 /* Montserrat-Medium.ttf in Resources */,
+				A42DD6D473D94778B71BFF06 /* Montserrat-MediumItalic.ttf in Resources */,
+				4A15FB67D1CF4B9EA5727369 /* Montserrat-Regular.ttf in Resources */,
+				1FD457AE4D0E40BF8E134CEB /* Montserrat-SemiBold.ttf in Resources */,
+				413A9F37117C434F8907D08A /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				18765EB0734947C2894F7AE2 /* Montserrat-Thin.ttf in Resources */,
+				F971FC65F2464225A8A1A8A2 /* Montserrat-ThinItalic.ttf in Resources */,
+				508DEAC82C6342219E43D432 /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
+				1F06CA9A10A749708F0CE336 /* Raleway-VariableFont_wght.ttf in Resources */,
+				2878DBD24041485A816061C0 /* Raleway-Black.ttf in Resources */,
+				0964F1CE40754855900949F2 /* Raleway-BlackItalic.ttf in Resources */,
+				EFE2F39EFFD64EED9A29AC3E /* Raleway-Bold.ttf in Resources */,
+				B49934DCAB334BA2A23B6AB1 /* Raleway-BoldItalic.ttf in Resources */,
+				1960B799A5A04D22B6D55E91 /* Raleway-ExtraBold.ttf in Resources */,
+				6270DAFC537C48389F71B3C8 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				8DB5B2077BBF4A33B89FD89C /* Raleway-ExtraLight.ttf in Resources */,
+				DBA1BBB00C0B48A8BF64D0F1 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				0AF7208E2F26404EBA6406B1 /* Raleway-Italic.ttf in Resources */,
+				79D01BD4BAF84FC2956258D5 /* Raleway-Light.ttf in Resources */,
+				DD43293C449A469EBA63E332 /* Raleway-LightItalic.ttf in Resources */,
+				29F34C2EEB4048289045A208 /* Raleway-Medium.ttf in Resources */,
+				D4EC7CB7C1B6448D81B4B0C6 /* Raleway-MediumItalic.ttf in Resources */,
+				031D578019CD4F03AC39DE26 /* Raleway-Regular.ttf in Resources */,
+				F92F89D3110144C38C11101F /* Raleway-SemiBold.ttf in Resources */,
+				0E55F5715153465CA1595641 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				C69370E679374356A72D522C /* Raleway-Thin.ttf in Resources */,
+				D035228DB6F048C1B622A8D9 /* Raleway-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				E8686D4825E94C8900399FFC /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		1C2DF5011530EEB7C382CF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Citrus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		817C7B852CEE86CB57124C2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Citrus-CitrusTests/Pods-Citrus-CitrusTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Citrus-CitrusTests/Pods-Citrus-CitrusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924DDEA121F57C94541D3D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Citrus-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960D245A2503428BD5EC61F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Citrus-CitrusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70525A663B9752A95B7C923 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Citrus/Pods-Citrus-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Citrus/Pods-Citrus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D8B966AA53B786617F7AC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Citrus-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CitrusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				E8FED916252795F400FB7B58 /* file.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* CitrusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Citrus */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Citrus-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Citrus;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069E40A379F170D7929F7CED /* Pods-Citrus-CitrusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 28L47H745H;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CitrusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citrus.app/Citrus";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1C02D2049B27B76F614281 /* Pods-Citrus-CitrusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 28L47H745H;
+				INFOPLIST_FILE = CitrusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citrus.app/Citrus";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3E1156CF4CB495A84BC4FC /* Pods-Citrus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Citrus/Citrus.entitlements;
+				CURRENT_PROJECT_VERSION = 1.0.20;
+				DEVELOPMENT_TEAM = 27BMCL3FP6;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = Citrus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecitruscompany.mobileapp;
+				PRODUCT_NAME = Citrus;
+				SWIFT_OBJC_BRIDGING_HEADER = "Citrus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A3B6A588867E8AC2BE6C17 /* Pods-Citrus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Citrus/Citrus.entitlements;
+				CURRENT_PROJECT_VERSION = 1.0.20;
+				DEVELOPMENT_TEAM = 27BMCL3FP6;
+				INFOPLIST_FILE = Citrus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecitruscompany.mobileapp;
+				PRODUCT_NAME = Citrus;
+				SWIFT_OBJC_BRIDGING_HEADER = "Citrus-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9989174B2FA23E79186F54 /* Pods-Citrus-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Citrus-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Citrus-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F403EE6BD2D0834941273336 /* Pods-Citrus-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Citrus-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Citrus-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFDE6D1ED20F18C9D37BEA4 /* Pods-Citrus-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Citrus-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Citrus-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citrus-tvOS.app/Citrus-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C6928800EB59D74B1AE5B1 /* Pods-Citrus-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Citrus-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Citrus-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citrus-tvOS.app/Citrus-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CitrusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Citrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Citrus-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Citrus-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Citrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
